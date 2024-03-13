@@ -5,5 +5,13 @@
 }
 
 main {
-    width: 80%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
+    gap: 20px; /* Espaçamento entre as colunas */
+    padding: 20px;
 }

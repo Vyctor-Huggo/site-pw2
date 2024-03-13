@@ -16,8 +16,6 @@ async function makeCards() {
 
 function redirect_items(id) {
 
-    const url = `Items_loja/main.html?id=${id}`;
+    const url = `Items_loja/items.html?id=${id}`;
     window.location.href = url;
-  }
-
-exibirProduto();
+}

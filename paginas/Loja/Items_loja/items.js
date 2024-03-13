@@ -11,17 +11,25 @@ async function usingData() {
         const response = await fetch('items.json');
         const lojaData = await response.json();
     
-        // Obtendo o 5º produto
-        const quintoProduto = lojaData.itens[3];
+        const id = getID();
+        const produto = lojaData.itens[id];
     
-        // Criando uma string com as informações do produto
-        console.log(quintoProduto);
+        console.log(id);
+
+        const nome = document.getElementById("nome");
+        const descricao = document.getElementById("descricao");
+        const preco = document.getElementById("preco");
+
+        nome.innerHTML = produto.nome;
+        descricao.innerText = produto.descricao;
+        preco.innerText = produto.preco;
+
     } catch (error) {
         console.error('Erro ao carregar o arquivo JSON:', error);
     }
 
-    const id = getID();
-
-    console.log(id);
-
+    
 }
+
+usingData();
+    
