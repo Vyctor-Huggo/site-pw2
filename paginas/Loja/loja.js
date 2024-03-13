@@ -1,4 +1,4 @@
-async function exibirProduto() {
+async function makeCards() {
     try {
         // Carregando o arquivo JSON
         const response = await fetch('items.json');
@@ -14,5 +14,10 @@ async function exibirProduto() {
     }
 }
 
-// Chamando a função para exibir o produto
+function redirect_items(id) {
+
+    const url = `Items_loja/main.html?id=${id}`;
+    window.location.href = url;
+  }
+
 exibirProduto();
