@@ -15,7 +15,6 @@ async function makeCards() {
 }
 
 function redirect_items(id) {
-
     const url = `Items_loja/items.html?id=${id}`;
     window.location.href = url;
 }

@@ -6,7 +6,7 @@
           "tamanhos": ["P", "M", "G", "GG"],
           "tipo": "Camiseta",
           "preco": 29.99,
-          "imagem": "imagem_camiseta_la_rale_tour.jpg",
+          "imagem": "../data/2024.jpg",
           "descricao_breve": "Celebre a La RaLé Tour com esta camiseta exclusiva!",
           "descricao": "Camiseta oficial da turnê La RaLé Tour, com design exclusivo para os fãs de Rafaella, Leticia e Laila."
       },
@@ -16,7 +16,7 @@
           "tamanhos": ["P", "M", "G", "GG"],
           "tipo": "Calça",
           "preco": 49.99,
-          "imagem": "imagem_calca_la_rale_style.jpg",
+          "imagem": "../data/2023.jpg",
           "descricao_breve": "Estilo único com a Calça Jeans La RaLé Style!",
           "descricao": "Calça jeans La RaLé Style, perfeita para expressar seu estilo autêntico inspirado por Rafaella, Leticia e Laila."
       },
@@ -26,7 +26,7 @@
           "tamanhos": ["P", "M", "G", "GG"],
           "tipo": "Moletom",
           "preco": 39.99,
-          "imagem": "imagem_moletom_la_rale_rocker.jpg",
+          "imagem": "../data/2022.jpg",
           "descricao_breve": "Aqueça-se com o Moletom La RaLé Rocker!",
           "descricao": "Moletom La RaLé Rocker para te manter quente e estiloso, como as integrantes Rafaella, Leticia e Laila."
       },
@@ -36,7 +36,7 @@
           "tamanhos": [34, 36, 38, 40, 42, 44],
           "tipo": "Calçado",
           "preco": 59.99,
-          "imagem": "imagem_tenis_la_rale_street.jpg",
+          "imagem": "../data/2021.jpg",
           "descricao_breve": "Pise com estilo usando o Tênis La RaLé Street!",
           "descricao": "Tênis La RaLé Street para um visual urbano e confortável, inspirado no estilo de Rafaella, Leticia e Laila."
       },

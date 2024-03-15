@@ -13,23 +13,27 @@ async function usingData() {
     
         const id = getID();
         const produto = lojaData.itens[id];
-    
-        console.log(id);
 
         const nome = document.getElementById("nome");
+        const img = document.getElementById("imagem");
         const descricao = document.getElementById("descricao");
         const preco = document.getElementById("preco");
 
         nome.innerHTML = produto.nome;
         descricao.innerText = produto.descricao;
         preco.innerText = produto.preco;
+        img.src = produto.imagem;
 
     } catch (error) {
         console.error('Erro ao carregar o arquivo JSON:', error);
+
+        const url = `404.html`;
+        window.location.href = url;
     }
 
     
 }
-
-usingData();
+document.addEventListener("DOMContentLoaded", function() {
+    usingData();
+});
     
