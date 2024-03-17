@@ -20,4 +20,5 @@ function criarLinks() {
 
 document.addEventListener("DOMContentLoaded", function() {
     criarLinks();
+    console.log("paths on");
 });

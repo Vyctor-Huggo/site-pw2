@@ -22,7 +22,16 @@ async function usingData() {
         nome.innerHTML = produto.nome;
         descricao.innerText = produto.descricao;
         preco.innerText = produto.preco;
-        img.src = produto.imagem;
+
+        console.log(img);
+
+        
+        
+/*
+        <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+*/        
 
     } catch (error) {
         console.error('Erro ao carregar o arquivo JSON:', error);
