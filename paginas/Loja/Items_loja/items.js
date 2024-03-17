@@ -25,7 +25,21 @@ async function usingData() {
 
         console.log(img);
 
-        
+        for (let i = 1; i <= 5; i++) {
+            var src_img = '../data/2022/' + i + '.png';
+            
+            var item = document.createElement("div");
+            item.id = "" + i;
+
+            if(item.id === "1") {
+                item.className = "carousel-item active";
+            } else {
+                item.className = "carousel-item";
+            }
+            item.innerHTML = `<img src="${src_img}" class="d-block w-100" alt="${i}"></img>`
+
+            img.append(item);
+        }
         
 /*
         <div class="carousel-item active">

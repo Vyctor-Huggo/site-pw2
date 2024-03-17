@@ -1,26 +1,3 @@
-var paths = {
-    "inicial": "/Inicial/inicial.html",
-    "ingressos": "/Ingressos/ingressos.html",
-    "loja": "/Loja/loja.html",
-    "contatos": "#Footer"
-};
-
-
-function criarLinks() {
-    var links = document.querySelectorAll("a");
-    links.forEach(function(link) {
-        var keyword = link.getAttribute("data-keyword");
-        if (paths[keyword]) {
-            link.href = paths[keyword];
-        }
-    });
-}
-
-document.addEventListener("DOMContentLoaded", function() {
-    criarLinks();
-});
-
-
 function texts(x) {
     var elemento;
     var img = document.getElementById("img");
