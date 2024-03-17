@@ -28,15 +28,15 @@ function texts(x) {
             img.setAttribute("src", "bromeia.avif");
             break;
         case 7:
-            elemento = "Sol e Alegria";
+            elemento = "Madrugada Serrana";
             img.setAttribute("src", "img/boemia.jpg");
             break;
         case 8:
-            elemento = "Cultivando Sonhos";
+            elemento = "Páginas do Passado";
             img.setAttribute("src", "img/aaaa.avif");
             break;
         case 9:
-            elemento = "Noites de Haze";
+            elemento = "Cicatrizes da alma";
             img.setAttribute("src", "bromeia.avif");
             break;
     }
