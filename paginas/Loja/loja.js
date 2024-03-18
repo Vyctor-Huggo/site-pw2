@@ -14,7 +14,11 @@ async function makeCards() {
     }
 }
 
-function redirect_items(id) {
+function redirect_items(btn) {
+    pai = btn.parentNode;
+    id = pai.id;
+    console.log(id);
+
     const url = `Items_loja/items.html?id=${id}`;
     window.location.href = url;
 }

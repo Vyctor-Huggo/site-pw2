@@ -6,7 +6,8 @@
           "tamanhos": ["P", "M", "G", "GG"],
           "tipo": "Camiseta",
           "preco": 29.99,
-          "imagem": "../data/2024.jpg",
+          "imagem": "../data/2022/",
+          "count_img": 5,
           "descricao_breve": "Celebre a La RaLé Tour com esta camiseta exclusiva!",
           "descricao": "Camiseta oficial da turnê La RaLé Tour, com design exclusivo para os fãs de Rafaella, Leticia e Laila."
       },
@@ -16,7 +17,8 @@
           "tamanhos": ["P", "M", "G", "GG"],
           "tipo": "Calça",
           "preco": 49.99,
-          "imagem": "../data/2023.jpg",
+          "imagem": "../data/2022/",
+          "count_img": 5,
           "descricao_breve": "Estilo único com a Calça Jeans La RaLé Style!",
           "descricao": "Calça jeans La RaLé Style, perfeita para expressar seu estilo autêntico inspirado por Rafaella, Leticia e Laila."
       },

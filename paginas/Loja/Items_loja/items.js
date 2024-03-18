@@ -5,6 +5,16 @@ function getID() {
     return params.id;
 }
 
+function carregarConteudo404() {
+    fetch('404.html') // Carrega o arquivo 404.html
+        .then(response => response.text()) // Converte a resposta para texto
+        .then(html => {
+            // Insere o conteúdo na div com id "conteudo-404"
+            document.getElementById('conteudo-item').innerHTML = html;
+        })
+        .catch(error => console.error('Erro ao carregar o conteúdo:', error));
+}
+
 async function usingData() {
     try {
         // Carregando o arquivo JSON
@@ -23,35 +33,26 @@ async function usingData() {
         descricao.innerText = produto.descricao;
         preco.innerText = produto.preco;
 
-        console.log(img);
-
-        for (let i = 1; i <= 5; i++) {
-            var src_img = '../data/2022/' + i + '.png';
+        for (let i = 1; i <= produto.count_img; i++) {
+            var src_img = produto.imagem + '' + i + '.png';
             
             var item = document.createElement("div");
             item.id = "" + i;
 
-            if(item.id === "1") {
-                item.className = "carousel-item active";
-            } else {
-                item.className = "carousel-item";
+            item.className = "carousel-item";
+            if (i === 1) {
+                item.classList.add("active");
             }
-            item.innerHTML = `<img src="${src_img}" class="d-block w-100" alt="${i}"></img>`
+            item.innerHTML = `<img src="${src_img}" class="d-block w-100" style="border-radius: 20px;" alt="${i}"></img>`
 
-            img.append(item);
+            img.appendChild(item);
         }
-        
-/*
-        <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-        </div>
-*/        
-
-    } catch (error) {
+    }  catch (error) {
         console.error('Erro ao carregar o arquivo JSON:', error);
-
-        const url = `404.html`;
-        window.location.href = url;
+        
+        document.dispatchEvent(new Event('htmlChanged')); // Dispara o evento htmlChanged
+        carregarConteudo404();
+        
     }
 
     
