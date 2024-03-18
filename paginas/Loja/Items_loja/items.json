@@ -1,56 +1,36 @@
 {
-  "itens": [
+    "itens": [
       {
-          "nome": "Camiseta La RaLé Tour",
-          "cores": ["Preto"],
-          "tamanhos": ["P", "M", "G", "GG"],
-          "tipo": "Camiseta",
-          "preco": 29.99,
-          "imagem": "../data/2022/",
+        "nome": "Coleção Turnê 2021",
+        "preco": 349.99,
+        "imagem": "data/2021/",
+          "count_img": 3,
+        "descricao_breve": "Blusa e calça com a logo da banda La Ralé.",
+        "descricao": "A Coleção Turnê 2021 apresenta uma blusa de manga comprida branca com a logo da banda La Ralé, combinada com uma calça jogger branca também estilizada com a logo da banda. Essa coleção reflete o estilo urbano e autêntico das integrantes Laila, Rafaella e Leticia, representando a identidade do hip hop."
+      },
+      {
+        "nome": "Coleção Street 2022",
+        "preco": 379.99,
+        "imagem": "data/2022/",
           "count_img": 5,
-          "descricao_breve": "Celebre a La RaLé Tour com esta camiseta exclusiva!",
-          "descricao": "Camiseta oficial da turnê La RaLé Tour, com design exclusivo para os fãs de Rafaella, Leticia e Laila."
+        "descricao_breve": "Blusa, calça e sapato com a logo da banda La Ralé.",
+        "descricao": "A Coleção Street 2022 apresenta uma blusa de manga comprida branca com a logo da banda La Ralé, combinada com uma calça jogger preta que exibe o nome da banda. Para completar o visual urbano, inclui um sapato branco e preto com a logo da banda. Inspirada no estilo autêntico das integrantes Laila, Rafaella e Leticia, essa coleção destaca-se pela sua representatividade no cenário do hip hop."
       },
       {
-          "nome": "Calça Jeans La RaLé Style",
-          "cores": ["Azul"],
-          "tamanhos": ["P", "M", "G", "GG"],
-          "tipo": "Calça",
-          "preco": 49.99,
-          "imagem": "../data/2022/",
-          "count_img": 5,
-          "descricao_breve": "Estilo único com a Calça Jeans La RaLé Style!",
-          "descricao": "Calça jeans La RaLé Style, perfeita para expressar seu estilo autêntico inspirado por Rafaella, Leticia e Laila."
+        "nome": "Coleção Urban 2023",
+        "preco": 359.99,
+        "imagem": "data/2023/",
+        "count_img": 5,
+        "descricao_breve": "Blusas, calça e sapato com a logo da banda La Ralé.",
+        "descricao": "A Coleção Urban 2023 apresenta uma variedade de peças em tons bege, todas estampadas com a logo da marca e o nome da banda La Ralé. Inclui uma blusa de manga comprida, uma calça jogger e uma blusa mais simples, todas refletindo o estilo autêntico das integrantes Laila, Rafaella e Leticia. Completa o conjunto um sapato inteiramente branco, representando a identidade urbana e contemporânea da banda."
       },
       {
-          "nome": "Moletom La RaLé Rocker",
-          "cores": ["Cinza"],
-          "tamanhos": ["P", "M", "G", "GG"],
-          "tipo": "Moletom",
-          "preco": 39.99,
-          "imagem": "../data/2022.jpg",
-          "descricao_breve": "Aqueça-se com o Moletom La RaLé Rocker!",
-          "descricao": "Moletom La RaLé Rocker para te manter quente e estiloso, como as integrantes Rafaella, Leticia e Laila."
-      },
-      {
-          "nome": "Tênis La RaLé Street",
-          "cores": ["Branco"],
-          "tamanhos": [34, 36, 38, 40, 42, 44],
-          "tipo": "Calçado",
-          "preco": 59.99,
-          "imagem": "../data/2021.jpg",
-          "descricao_breve": "Pise com estilo usando o Tênis La RaLé Street!",
-          "descricao": "Tênis La RaLé Street para um visual urbano e confortável, inspirado no estilo de Rafaella, Leticia e Laila."
-      },
-      {
-          "nome": "Boné La RaLé Logo",
-          "cores": ["Vermelho"],
-          "tamanhos": ["Único"],
-          "tipo": "Acessório",
-          "preco": 19.99,
-          "imagem": "imagem_bone_la_rale_logo.jpg",
-          "descricao_breve": "Complete seu visual com o Boné La RaLé Logo!",
-          "descricao": "Boné La RaLé Logo, um acessório essencial para mostrar seu apoio ao trio Rafaella, Leticia e Laila."
+        "nome": "Coleção Chic 2024",
+        "preco": 399.99,
+        "imagem": "data/2024/",
+        "count_img": 4,
+        "descricao_breve": "Blusa, calça e camisa xadrez com a logo da banda La Ralé.",
+        "descricao": "A Coleção Chic 2024 traz um toque de elegância e estilo. Apresenta uma blusa de manga comprida e um gorro em tom bege amarelado, ambos estampados com a logo da marca. Complementando o visual, inclui uma calça xadrez em tons de vermelho e bege, acompanhada por um cinto preto, e uma camisa de botão também xadrez. Essa coleção reflete o espírito inovador e a essência única das integrantes Laila, Rafaella e Leticia, representando o hip hop de uma maneira sofisticada e contemporânea."
       }
-  ]
-}
+    ]
+  }

@@ -1,17 +1,19 @@
-* {
-    box-sizing: border-box;
-    margin: auto;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+style="text-align: justify;
+header {
+    font-family: 'Marko One', sans-serif;
+    background-color: #f6f4e8;
 }
 
 main {
-    padding-left: 4vw;
-    padding-right: 4vw;
+    font-family: 'Marko One', sans-serif;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    width: 80%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
-    gap: 20px; /* Espaçamento entre as colunas */
-    padding: 20px;
+
+footer {
+    font-family: 'Marko One', sans-serif;
 }

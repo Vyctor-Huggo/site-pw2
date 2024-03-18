@@ -3,8 +3,8 @@ var paths = {
     "ingressos": "/Ingressos/ingressos.html",
     "loja": "/Loja/loja.html",
     "contatos": "#Footer",
-    "instagram": "",
-    "twitter": ""
+    "instagram": "https://www.instagram.com/gatos_fofos_e_engracados/",
+    "twitter": "https://twitter.com/gatinarios"
 };
 
 
@@ -23,7 +23,3 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("paths on");
 });
 
-document.addEventListener('htmlChanged', function() {
-    criarLinks();
-    console.log("paths on");
-});

@@ -34,7 +34,7 @@ async function usingData() {
         preco.innerText = produto.preco;
 
         for (let i = 1; i <= produto.count_img; i++) {
-            var src_img = produto.imagem + '' + i + '.png';
+            var src_img = '../' + produto.imagem + '' + i + '.png';
             
             var item = document.createElement("div");
             item.id = "" + i;
@@ -49,10 +49,7 @@ async function usingData() {
         }
     }  catch (error) {
         console.error('Erro ao carregar o arquivo JSON:', error);
-        
-        document.dispatchEvent(new Event('htmlChanged')); // Dispara o evento htmlChanged
         carregarConteudo404();
-        
     }
 
     
